@@ -8,6 +8,12 @@ Just another zsh theme. After browsing through all of http://zshthem.es/, I coul
 * One-line prompt
 * Python virtualenv support (shows up on the right)
 
+Requirements
+============
+
+This theme requires a powerline updated font to work correctly. They can be downloaded here [https://github.com/Lokaltog/powerline-fonts](https://github.com/Lokaltog/powerline-fonts). When installed, set this font in your terminal. Personally, I use Monaco for Powerline with iTerm 2 ([https://gist.github.com/baopham/1838072](https://gist.github.com/baopham/1838072)).
+
+
 
 Special thanks to dhruvasagar, amuse theme author (this theme is heavily based on amuse).
 
