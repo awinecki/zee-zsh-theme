@@ -8,7 +8,8 @@ rbenv_version() {
   rbenv version 2>/dev/null | awk '{print $1}'
 }
 
-PROMPT='%{$FG[237]%}%*%{$reset_color%} %{$fg_bold[green]%}${PWD/#$HOME/~}%{$reset_color%}$(git_prompt_info) » '
+PROMPT='
+%{$FG[237]%}%*%{$reset_color%} %{$FG[048]%}${PWD/#$HOME/~}%{$reset_color%}$(git_prompt_info) %{$FG[240]%}»%{$reset_color%} '
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" on %{$FG[032]%}⭠ "
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
