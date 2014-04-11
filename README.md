@@ -8,6 +8,13 @@ Just another zsh theme. After browsing through all of http://zshthem.es/, I coul
 * One-line prompt
 * Python virtualenv support (shows up on the right)
 
+
+To get all nice colors n stuff drop this line into your .zshrc:
+
+export TERM="xterm-256color"
+
+In newest versions of oh-my-zsh there is spectrum_ls command available that lists all available colors. You can use it to edit colors in this theme and others.
+
 Requirements
 ============
 
